@@ -3,7 +3,7 @@
 
 ## 安装
 ### 1. 下载
-![download](download.png)
+![download](/imgs/download.png)
 
 ### 2. 安装 Python
 [Python 3.6.3](https://www.python.org/downloads/release/python-363/)
@@ -21,14 +21,14 @@
 4. 如下图所示，在 Fiddler 中选中对应请求，选择 Raw 格式进行查看，并将结果复制到 http.txt 中
 6. 在当前文件夹打开命令行，执行 `python run.py` ， 就能拉黑 list.txt 中的所有用户。
 
-![fiddler](fiddler.png)
+![fiddler](/imgs/fiddler.png)
 
 
 ## 说明
 list.txt 中是 微博监督员 关注列表前 100 个用户的 UID。 现在微博只能查看前 5 页关注列表，所以不能获取全部 400 多个微博监督员的 UID。 
 
 欢迎大家补充 微博监督员 的 UID 到 list.txt。网页版微博打开主页，第一串数字就是 UID。 
-![uid](uid.png)
+![uid](/imgs/uid.png)
 
 ## 致谢
 + 感谢 iwaiwai， 目前补充到 180 个。
