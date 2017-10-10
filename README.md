@@ -34,4 +34,6 @@ list.txt 中是 微博监督员 关注列表前 100 个用户的 UID。 现在�
 ![uid](uid.png)
 
 ## 问题
-其实我对 Python 不是很熟悉，感觉 `request.urlopen` 慢的不可思议。
+其实我是 Python 小白，感觉 `request.urlopen` 慢的不可思议。
+
+最开始我是拿 Matlab + java.swing.Robot + Fiddler 模拟输入干的。
