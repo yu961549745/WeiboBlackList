@@ -13,8 +13,10 @@ with open('http.txt') as f:
         headers[ss[0:idx].strip()] = ss[(idx + 1):].strip()
 
 # 读取黑名单列表
-with open('list.txt') as f:
+with open('testlist.txt') as f:
     lst = f.read().strip().split('\n')
+
+lst = set(lst)  # 列表去重
 
 # 逐个加入黑名单
 for uid in lst:
