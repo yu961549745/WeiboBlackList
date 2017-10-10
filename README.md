@@ -27,13 +27,13 @@
 ## 说明
 list.txt 中是 微博监督员 关注列表前 100 个用户的 UID。 现在微博只能查看前 5 页关注列表，所以不能获取全部 400 多个微博监督员的 UID。 
 
+欢迎大家补充 微博监督员 的 UID 到 list.txt。网页版微博打开主页，第一串数字就是 UID。 
+![uid](uid.png)
+
 ## 致谢
 + 感谢 iwaiwai， 目前补充到 180 个。
 + 感谢 cqlicheng，目前补充到 200 个。
 + 感谢 sinchang， 目前补充到 426 个。
-
-欢迎大家补充 微博监督员 的 UID 到 list.txt。网页版微博打开主页，第一串数字就是 UID。 
-![uid](uid.png)
 
 ## 问题
 其实我是 Python 小白，感觉 `request.urlopen` 慢的不可思议。
