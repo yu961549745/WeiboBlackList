@@ -10,7 +10,7 @@ if len(sys.argv) != 3:
 url = 'https://weibo.com/aj/filter/block?ajwvr=6'  # 微博屏蔽的接口
 
 black_list = []  # 初始化黑名单id，按行导入
-with open('test.txt', 'r') as reader:
+with open('../list.txt', 'r') as reader:
     while True:
         black_id = reader.readline()
         if black_id:
