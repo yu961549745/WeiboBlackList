@@ -19,7 +19,7 @@
 2. 打开 Fiddler 
 3. 拉黑刚刚准备的测试用户
 4. 如下图所示，在 Fiddler 中选中对应请求，选择 Raw 格式进行查看，并将结果复制到 http.txt 中
-6. 在当前文件夹打开命令行，执行 `python run.py` ， 就能拉黑 list.txt 中的所有用户。
+6. 在当前文件夹打开命令行，执行 `python run.py`, 或者直接双击 `run.bat` ， 就能拉黑 list.txt 中的所有用户。
 
 ![fiddler](/imgs/fiddler.png)
 
