@@ -1,5 +1,6 @@
 from urllib import request, parse
 import re
+import gzip
 
 # 加载 HTTP 请求设置
 with open('http.txt') as f:
@@ -22,4 +23,11 @@ for uid in lst:
     req = request.Request(url, headers=headers)
     data = {'uid': uid, 'f': '1'}
     f = request.urlopen(req, data=parse.urlencode(data).encode('utf8'))
+    print('Status:', f.status, f.reason)
+    doc = f.read()
+    try:
+        doc = gzip.decompress(doc)
+    except:
+        pass
+    print(doc)
     f.close()
