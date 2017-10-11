@@ -1,6 +1,16 @@
 # WeiboBlackList
 微博批量拉黑
 
+# JS 脚本
+来自于 https://github.com/overtrue/weibo-dogs-killer
+
+使用方法：
+1. 使用浏览器打开 https://weibo.com 并登陆
+2. 打开命令行，粘贴 `weibo-dogs-killer.js` 的代码并运行
+![js](/imgs/js.png)
+
+
+# Python 脚本
 ## 安装
 ### 1. 下载
 ![download](/imgs/download.png)
