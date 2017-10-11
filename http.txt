@@ -7,9 +7,9 @@ X-Requested-With: XMLHttpRequest
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
 Content-Type: application/x-www-form-urlencoded
 Accept: */*
-Referer: http://weibo.com/6264005608/follow?refer_flag=1001030101_&is_all=1
+Referer: http://weibo.com/p/1006066264005608/follow?page=1
 Accept-Encoding: gzip, deflate
 Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
-Cookie: __Your_Cookie__
+Cookie: _Your_Cookie_
 
-uid=5471246591&f=1
+uid=5209943797&f=1
