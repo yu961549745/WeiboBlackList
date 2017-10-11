@@ -13,7 +13,7 @@ list.txt 中是 微博监督员 的 UID 列表，目前已补充至 410 个。
 1. 使用浏览器打开 https://weibo.com 并登陆
     + Windows Chrome `F12`
     + Mac Chrome `Option+Command+I`
-2. 打开命令行，粘贴 `weibo-dogs-killer.js` 的代码并运行
+2. 打开命令行，粘贴 [weibo-dogs-killer.js](weibo-dogs-killer.js) 的代码并运行
 ![js](/imgs/js.jpg)
 
 
