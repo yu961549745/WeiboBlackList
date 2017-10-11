@@ -10,7 +10,7 @@ if len(sys.argv) != 3:
 url = 'http://weibo.com/aj/filter/block?ajwvr=6'  # 微博屏蔽的接口
 
 black_list = []  # 初始化黑名单id，按行导入
-with open('list.txt', 'r') as reader:
+with open('test.txt', 'r') as reader:
     while True:
         black_id = reader.readline()
         if black_id:
@@ -20,7 +20,8 @@ with open('list.txt', 'r') as reader:
 
 # 使用自定义的session，直接登录
 ws = WeiboSession(sys.argv[1], sys.argv[2])
-ws.headers.update({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"})
+ws.headers.update(
+    {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"})
 ws.login()
 
 black_data = {
@@ -38,4 +39,3 @@ for uid in black_list:
     retText = ws.post(url, data=black_data).text
     retJson = json.loads(retText)
     print("屏蔽用户：%s 结果：%s" % (uid, retJson["msg"]))
-
