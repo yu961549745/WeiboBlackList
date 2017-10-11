@@ -34,6 +34,7 @@ list.txt 中是 微博监督员 关注列表前 100 个用户的 UID。 现在�
 + 感谢 iwaiwai， 目前补充到 180 个。
 + 感谢 cqlicheng，目前补充到 200 个。
 + 感谢 sinchang， 目前补充到 426 个。
++ 感谢微博用户 tsh90 指出错误名单，目前删减到 410 个。
 
 ## 问题
 其实我是 Python 小白，感觉 `request.urlopen` 慢的不可思议。

@@ -1,14 +1,15 @@
 POST http://weibo.com/aj/f/addblack?ajwvr=6 HTTP/1.1
 Host: weibo.com
-Proxy-Connection: keep-alive
+Connection: keep-alive
+Content-Length: 18
 Origin: http://weibo.com
 X-Requested-With: XMLHttpRequest
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
 Content-Type: application/x-www-form-urlencoded
 Accept: */*
-Referer: http://weibo.com/p/1005055528182895/myfollow?relate=fans
+Referer: http://weibo.com/6264005608/follow?refer_flag=1001030101_&is_all=1
 Accept-Encoding: gzip, deflate
 Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
-Cookie: 你的 Cookie
+Cookie: __Your_Cookie__
 
-uid=6324070536&f=1
+uid=5471246591&f=1

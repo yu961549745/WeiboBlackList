@@ -2,16 +2,6 @@ import json
 import sys
 from WeiboSession import WeiboSession
 
-# 加载 HTTP 请求设置 (不需要重新设置头部)
-# with open('http.txt') as f:
-#     s = f.read()
-#     s = s.strip().split('\n')
-#     headers = {}
-#     for k in range(2, len(s) - 2):
-#         ss = s[k]
-#         idx = ss.index(':')
-#         headers[ss[0:idx].strip()] = ss[(idx + 1):].strip()
-
 if len(sys.argv) != 3:
     print("使用方法：")
     print("python run.py username password")
@@ -48,3 +38,4 @@ for uid in black_list:
     retText = ws.post(url, data=black_data).text
     retJson = json.loads(retText)
     print("屏蔽用户：%s 结果：%s" % (uid, retJson["msg"]))
+
