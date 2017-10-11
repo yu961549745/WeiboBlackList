@@ -27,7 +27,7 @@
 
 感谢 CirQ 的 PR。
 
-现在还在整理中...
+[README](/py_v2/README.md)
 
 # 致谢
 + 感谢 iwaiwai， 目前补充到 180 个。
