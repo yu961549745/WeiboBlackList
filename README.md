@@ -37,5 +37,6 @@
 + 感谢 [cqlicheng](https://github.com/cqlicheng) ，目前补充到 200 个。
 + 感谢 [sinchang](https://github.com/sinchang) ， 目前补充到 426 个。
 + 感谢微博用户 [tsh90](http://weibo.com/tsh90) 指出错误名单，目前删减到 410 个。
++ 感谢 [sinchang](https://github.com/sinchang) 的新名单， 目前删减到 408 个。
 + 感谢 [CirQ](https://github.com/CirQ) 的模拟登陆脚本。
 + 感谢 [overtrue](https://github.com/overtrue) 的 js 脚本让操作更方便。
