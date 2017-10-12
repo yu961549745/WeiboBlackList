@@ -17,8 +17,13 @@ function check() {
         if (http.readyState != 4 || http.status != 200) {
             return;
         }
-        let data = { index: i, id: dogId, is_dog: http.responseText.indexOf('W_icon icon_supervisor') >= 0 ? true : false }
-        console.log(data)
+        ret = http.responseText.search(/pf_username.*?W_icon icon_supervisor/) >= 0
+        msg = { index: i, id: dogId, is_dog: ret }
+        if (ret) {
+            console.log(msg)
+        } else {
+            console.warn(msg)
+        }
     }
 }
 
