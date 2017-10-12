@@ -1,7 +1,7 @@
 # WeiboBlackList
 微博批量拉黑
 
-[list.txt](list.txt) 中是 微博监督员 的 UID 列表，目前已补充至 410 个。
+[list.txt](list.txt) 中是 微博监督员 的 UID 列表，目前已补充至 407 个。
 
 欢迎大家补充 微博监督员 的 UID 到 list.txt。网页版微博打开主页，第一串数字就是 UID。 
 ![uid](/imgs/uid.png)
