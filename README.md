@@ -12,7 +12,7 @@
 来自于 https://github.com/overtrue/weibo-dogs-killer
 
 使用方法：
-1. 使用浏览器打开 https://weibo.com 并登陆
+1. 使用浏览器打开 https://weibo.com 并登陆，强调一下 **https https https**。
 2. 打开命令行
     + Windows Chrome `F12`
     + Mac Chrome `Option+Command+I`
