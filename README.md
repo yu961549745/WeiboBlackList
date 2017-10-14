@@ -6,7 +6,7 @@
 欢迎大家补充 微博监督员 的 UID 到 list.txt。网页版微博打开主页，第一串数字就是 UID。 
 ![uid](/imgs/uid.png)
 
-本项目黑名单列表主要来自于 https://userfulapi.herokuapp.com/weibo/supervisor，感谢 [sinchang](https://github.com/sinchang)。
+本项目黑名单列表表主要来自于 https://userfulapi.herokuapp.com/weibo/supervisor ，感谢 [sinchang](https://github.com/sinchang)。
 
 也可以使用这个脚本自动采集： https://github.com/LyZane/weibo-supervisor-jsCrawler
 
