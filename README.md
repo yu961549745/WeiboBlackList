@@ -6,7 +6,9 @@
 欢迎大家补充 微博监督员 的 UID 到 list.txt。网页版微博打开主页，第一串数字就是 UID。 
 ![uid](/imgs/uid.png)
 
-可以使用这个脚本自动采集： https://github.com/LyZane/weibo-supervisor-jsCrawler
+本项目黑名单列表表主要来自于 https://userfulapi.herokuapp.com/weibo/supervisor ，感谢 [sinchang](https://github.com/sinchang)。
+
+也可以使用这个脚本自动采集： https://github.com/LyZane/weibo-supervisor-jsCrawler
 
 # JS 脚本
 来自于 https://github.com/overtrue/weibo-dogs-killer
@@ -20,6 +22,15 @@
     + Mac Chrome `Option+Command+I`
 3. 粘贴 [weibo-dogs-killer.js](weibo-dogs-killer.js) 的代码并运行
 ![js](/imgs/js.jpg)
+
+# 其它脚本推荐
+[监督员批量拉黑](https://tiansh.github.io/us-weibo/Weibo_Supervisor_Blacklist_Tool/) by [tiansh](https://github.com/tiansh)
+
+[不看监督员相关微博](https://tiansh.github.io/us-weibo/Weibo_Supervisor_Blacklist_Tool/) by [tiansh](https://github.com/tiansh)
+
+Chrome插件 by [Azzssss](https://github.com/Azzssss)
++ [项目地址](https://github.com/Azzssss/BlockPlugin)
++ [谷歌商店](https://chrome.google.com/webstore/search/%E6%89%B9%E9%87%8F%E6%8B%89%E9%BB%91%E5%BE%AE%E5%8D%9A%E7%9B%91%E7%9D%A3%E5%91%98?utm_source=chrome-ntp-icon)
 
 
 # Python 脚本 V1 
@@ -38,7 +49,7 @@
 + 感谢 [iwaiwai](https://github.com/iwaiwai) ， 目前补充到 180 个。
 + 感谢 [cqlicheng](https://github.com/cqlicheng) ，目前补充到 200 个。
 + 感谢 [sinchang](https://github.com/sinchang) ， 目前补充到 426 个。
-+ 感谢微博用户 [tsh90](http://weibo.com/tsh90) 指出错误名单，目前删减到 410 个。
-+ 感谢 [sinchang](https://github.com/sinchang) 的新名单， 目前删减到 408 个。
++ 感谢 [tiansh](https://github.com/tiansh) 指出错误名单，目前删减到 410 个。
++ 感谢 [sinchang](https://github.com/sinchang) 的新名单， 目前删减到 407 个。
 + 感谢 [CirQ](https://github.com/CirQ) 的模拟登陆脚本。
 + 感谢 [overtrue](https://github.com/overtrue) 的 js 脚本让操作更方便。
