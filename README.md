@@ -12,7 +12,9 @@
 来自于 https://github.com/overtrue/weibo-dogs-killer
 
 使用方法：
-1. 使用浏览器打开 https://weibo.com 并登陆，强调一下 **https https https**。
+1. 使用浏览器打开 https://weibo.com 并登陆，强调一下 **直接点击这个链接登录**， 一旦报错出现 `CORS policy`， 说明是 js 跨域的问题， 简单的说就是网址前缀不一样， 常见的问题是：
+    + 要么不是 https
+    + 要么加了 www
 2. 打开命令行
     + Windows Chrome `F12`
     + Mac Chrome `Option+Command+I`
