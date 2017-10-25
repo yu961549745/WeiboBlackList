@@ -27,4 +27,4 @@ function check() {
     }
 }
 
-timer = setInterval(check, 3000)
+timer = setInterval(check, 2000)
