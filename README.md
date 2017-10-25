@@ -1,7 +1,7 @@
 # WeiboBlackList
 微博批量拉黑
 
-[list.txt](list.txt) 中是 微博监督员 的 UID 列表，目前已补充至 407 个。
+[list.txt](list.txt) 中是 微博监督员 的 UID 列表，目前已补充至 403 个。
 
 欢迎大家补充 微博监督员 的 UID 到 list.txt。网页版微博打开主页，第一串数字就是 UID。 
 ![uid](/imgs/uid.png)
@@ -52,4 +52,5 @@ Chrome插件 by [Azzssss](https://github.com/Azzssss)
 + 感谢 [tiansh](https://github.com/tiansh) 指出错误名单，目前删减到 410 个。
 + 感谢 [sinchang](https://github.com/sinchang) 的新名单， 目前删减到 407 个。
 + 感谢 [CirQ](https://github.com/CirQ) 的模拟登陆脚本。
++ 感谢 [tiansh](https://github.com/tiansh) 指出错误名单，目前删减到 403 个。
 + 感谢 [overtrue](https://github.com/overtrue) 的 js 脚本让操作更方便。
