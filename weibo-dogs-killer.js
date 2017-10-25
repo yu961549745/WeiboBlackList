@@ -41,4 +41,4 @@ function kill() {
     i++
 }
 
-timer = setInterval(kill, 1000)
+timer = setInterval(kill, 3000)
