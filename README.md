@@ -54,3 +54,4 @@ Chrome插件 by [Azzssss](https://github.com/Azzssss)
 + 感谢 [CirQ](https://github.com/CirQ) 的模拟登陆脚本。
 + 感谢 [tiansh](https://github.com/tiansh) 指出错误名单，目前删减到 403 个。
 + 感谢 [overtrue](https://github.com/overtrue) 的 js 脚本让操作更方便。
++ 感谢 [tiansh](https://github.com/tiansh) 的持续关注，名单删减到 391 个。
